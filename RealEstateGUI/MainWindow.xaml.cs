@@ -28,7 +28,7 @@ namespace RealEstateGUI
             InitializeComponent();
             sellers = new List<Seller>();
             
-            string myConnectionString = "server=127.0.0.1;uid=root;pwd=;database=ads";
+            string myConnectionString = "server=127.0.0.1;uid=root;pwd=;database=ingatlan";
             myConnection = new MySqlConnection(myConnectionString);
             try
             {
